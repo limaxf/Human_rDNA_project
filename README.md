@@ -1,4 +1,5 @@
 [![bioRxiv](https://img.shields.io/badge/bioRxiv-10.1101/2025.10.28.685169v2-b31b1b.svg)](https://www.biorxiv.org/content/10.1101/2025.10.28.685169v2)
+[![DOI](https://zenodo.org/badge/681301375.svg)](https://doi.org/10.5281/zenodo.19382935)
 # Evidence for strong purifying selection of human 47S ribosomal RNA genes
 ## Problem: Little research have been done to associate known diseases to the Human rDNA due to it's unique characteristics. Our study starts with evidence for strong purifying selection of human 47S ribosomal RNA genes, and expand deeper into associations.
 ## 1.Build a detailed sound profile of the Human rDNA (1000 Genome Project)
