@@ -1,9 +1,10 @@
-# Human_rDNA
-## Problem: Fewer work has been done to associate known diseases to the Human rDNA due to it's unique characteristics. 
+[![bioRxiv](https://img.shields.io/badge/bioRxiv-10.1101/2025.10.28.685169v2-b31b1b.svg)](https://www.biorxiv.org/content/10.1101/2025.10.28.685169v2)
+# Evidence for strong purifying selection of human 47S ribosomal RNA genes
+## Problem: Few work have been done to associate known diseases to the Human rDNA due to it's unique characteristics. 
 ## 1.Build a detailed sound profile of the Human rDNA (1000 Genome Project)
 ### Reference index
 ```sh
-bash hg_index.sh
+bowtie2-build -f .fna GRCh38.p14
 ```
 ### Pipeline Wrapper(download, alignment, index, sort, variant calling)
 ```sh
@@ -19,6 +20,5 @@ NEAT_modelgen.sh
 ```sh
 example.sh
 ```
-## Process Report
-Slide Deck:https://docs.google.com/presentation/d/1XitdyFE3fXkGOZ44fM8qVVKnsxKPekqWglogznm29UM/edit?usp=sharing
-Statistical Numbers:https://docs.google.com/document/d/1Y9GlC_lHqXpGFmhLOE49_7846Hu9XuH0kuRBre-exqs/edit?usp=sharing
+## Reference
+bioRxiv: https://www.biorxiv.org/content/10.1101/2025.10.28.685169v2
